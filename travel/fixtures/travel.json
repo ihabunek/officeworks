@@ -1,0 +1,928 @@
+[
+    {
+        "model": "travel.Currency",
+        "pk": 1,
+        "fields": {
+            "code": "EUR",
+            "name": "Euro"
+        }
+    },
+    {
+        "model": "travel.Currency",
+        "pk": 2,
+        "fields": {
+            "code": "HRK",
+            "name": "Hrvatska Kuna"
+        }
+    },
+    {
+        "model": "travel.Currency",
+        "pk": 3,
+        "fields": {
+            "code": "USD",
+            "name": "US Dollar"
+        }
+    },
+
+
+    {
+        "model": "travel.Country",
+        "pk": 1,
+        "fields": {
+            "name": "Afganistan",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 2,
+        "fields": {
+            "name": "Albanija",
+            "allowance_currency": 1,
+            "allowance_amount": 30
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 3,
+        "fields": {
+            "name": "Al\u017eir",
+            "allowance_currency": 3,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 4,
+        "fields": {
+            "name": "Andora",
+            "allowance_currency": 3,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 5,
+        "fields": {
+            "name": "Angola",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 6,
+        "fields": {
+            "name": "Argentinska",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 7,
+        "fields": {
+            "name": "Armenija",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 8,
+        "fields": {
+            "name": "Australija",
+            "allowance_currency": 3,
+            "allowance_amount": 85
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 9,
+        "fields": {
+            "name": "Austrija",
+            "allowance_currency": 1,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 10,
+        "fields": {
+            "name": "Azerbajd\u017eanska",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 11,
+        "fields": {
+            "name": "Belgija",
+            "allowance_currency": 1,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 12,
+        "fields": {
+            "name": "Bjelorusija",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 13,
+        "fields": {
+            "name": "Bolivija",
+            "allowance_currency": 3,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 14,
+        "fields": {
+            "name": "Bosna i Hercegovina",
+            "allowance_currency": 1,
+            "allowance_amount": 30
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 15,
+        "fields": {
+            "name": "Brazil",
+            "allowance_currency": 3,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 16,
+        "fields": {
+            "name": "Bugarska",
+            "allowance_currency": 1,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 17,
+        "fields": {
+            "name": "Cipar",
+            "allowance_currency": 1,
+            "allowance_amount": 60
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 18,
+        "fields": {
+            "name": "\u010ce\u0161ka",
+            "allowance_currency": 1,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 19,
+        "fields": {
+            "name": "\u010cile",
+            "allowance_currency": 3,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 20,
+        "fields": {
+            "name": "Danska",
+            "allowance_currency": 1,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 21,
+        "fields": {
+            "name": "Koreja (Demokratska Narodna Republika)",
+            "allowance_currency": 3,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 22,
+        "fields": {
+            "name": "Egipat",
+            "allowance_currency": 3,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 23,
+        "fields": {
+            "name": "Estonija",
+            "allowance_currency": 1,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 24,
+        "fields": {
+            "name": "Etiopija",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 25,
+        "fields": {
+            "name": "Filipini",
+            "allowance_currency": 3,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 26,
+        "fields": {
+            "name": "Finska",
+            "allowance_currency": 1,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 27,
+        "fields": {
+            "name": "Francuska",
+            "allowance_currency": 1,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 28,
+        "fields": {
+            "name": "Gr\u010dka",
+            "allowance_currency": 1,
+            "allowance_amount": 60
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 29,
+        "fields": {
+            "name": "Gruzija",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 30,
+        "fields": {
+            "name": "Hrvatska",
+            "allowance_currency": 2,
+            "allowance_amount": 170
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 31,
+        "fields": {
+            "name": "Indija",
+            "allowance_currency": 3,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 32,
+        "fields": {
+            "name": "Indonezija",
+            "allowance_currency": 3,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 33,
+        "fields": {
+            "name": "Irak",
+            "allowance_currency": 3,
+            "allowance_amount": 60
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 34,
+        "fields": {
+            "name": "Iran",
+            "allowance_currency": 3,
+            "allowance_amount": 60
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 35,
+        "fields": {
+            "name": "Irska",
+            "allowance_currency": 1,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 36,
+        "fields": {
+            "name": "Island",
+            "allowance_currency": 1,
+            "allowance_amount": 80
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 37,
+        "fields": {
+            "name": "Italija",
+            "allowance_currency": 1,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 38,
+        "fields": {
+            "name": "Izrael",
+            "allowance_currency": 3,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 39,
+        "fields": {
+            "name": "Jamajka",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 40,
+        "fields": {
+            "name": "Japan",
+            "allowance_currency": 3,
+            "allowance_amount": 85
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 41,
+        "fields": {
+            "name": "Jemen",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 42,
+        "fields": {
+            "name": "Jordan",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 43,
+        "fields": {
+            "name": "Ju\u017enoafri\u010dka Republika",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 44,
+        "fields": {
+            "name": "Kanada",
+            "allowance_currency": 3,
+            "allowance_amount": 85
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 45,
+        "fields": {
+            "name": "Kazahstan",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 46,
+        "fields": {
+            "name": "Kenija",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 47,
+        "fields": {
+            "name": "Kina",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 48,
+        "fields": {
+            "name": "\"Kina, HongKong\"",
+            "allowance_currency": 3,
+            "allowance_amount": 95
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 49,
+        "fields": {
+            "name": "Kirgiska",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 50,
+        "fields": {
+            "name": "Kolumbija",
+            "allowance_currency": 3,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 51,
+        "fields": {
+            "name": "Kongo",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 52,
+        "fields": {
+            "name": "Kuba",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 53,
+        "fields": {
+            "name": "Kuvajt",
+            "allowance_currency": 3,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 54,
+        "fields": {
+            "name": "Latvija",
+            "allowance_currency": 1,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 55,
+        "fields": {
+            "name": "Libanonska",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 56,
+        "fields": {
+            "name": "Liberija",
+            "allowance_currency": 3,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 57,
+        "fields": {
+            "name": "Libija",
+            "allowance_currency": 3,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 58,
+        "fields": {
+            "name": "Litva",
+            "allowance_currency": 1,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 59,
+        "fields": {
+            "name": "Luksemburg",
+            "allowance_currency": 1,
+            "allowance_amount": 80
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 60,
+        "fields": {
+            "name": "Mad\u017earska",
+            "allowance_currency": 1,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 61,
+        "fields": {
+            "name": "Makedonija",
+            "allowance_currency": 1,
+            "allowance_amount": 30
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 62,
+        "fields": {
+            "name": "Malezija",
+            "allowance_currency": 3,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 63,
+        "fields": {
+            "name": "Malta",
+            "allowance_currency": 1,
+            "allowance_amount": 60
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 64,
+        "fields": {
+            "name": "Meksiko",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 65,
+        "fields": {
+            "name": "Moldova",
+            "allowance_currency": 3,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 66,
+        "fields": {
+            "name": "Monako",
+            "allowance_currency": 1,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 67,
+        "fields": {
+            "name": "Mozambik",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 68,
+        "fields": {
+            "name": "Nizozemska",
+            "allowance_currency": 1,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 69,
+        "fields": {
+            "name": "Norve\u0161ka",
+            "allowance_currency": 1,
+            "allowance_amount": 80
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 70,
+        "fields": {
+            "name": "NoviZeland",
+            "allowance_currency": 3,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 71,
+        "fields": {
+            "name": "Njema\u010dka",
+            "allowance_currency": 1,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 72,
+        "fields": {
+            "name": "Pakistan",
+            "allowance_currency": 3,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 73,
+        "fields": {
+            "name": "Panama",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 74,
+        "fields": {
+            "name": "Peru",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 75,
+        "fields": {
+            "name": "Poljska",
+            "allowance_currency": 1,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 76,
+        "fields": {
+            "name": "Portugal",
+            "allowance_currency": 1,
+            "allowance_amount": 60
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 77,
+        "fields": {
+            "name": "Republika Koreja",
+            "allowance_currency": 3,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 78,
+        "fields": {
+            "name": "Rumunjska",
+            "allowance_currency": 1,
+            "allowance_amount": 40
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 79,
+        "fields": {
+            "name": "Ruska Federacija",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 80,
+        "fields": {
+            "name": "Saudijska Arabija",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 81,
+        "fields": {
+            "name": "Senegal",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 82,
+        "fields": {
+            "name": "Singapur",
+            "allowance_currency": 3,
+            "allowance_amount": 85
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 83,
+        "fields": {
+            "name": "Sirija",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 84,
+        "fields": {
+            "name": "Sjedinjene Ameri\u010dke Dr\u017eave (USA)",
+            "allowance_currency": 3,
+            "allowance_amount": 95
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 85,
+        "fields": {
+            "name": "Slova\u010dka",
+            "allowance_currency": 1,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 86,
+        "fields": {
+            "name": "Slovenija",
+            "allowance_currency": 1,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 87,
+        "fields": {
+            "name": "Srbija i Crna Gora",
+            "allowance_currency": 1,
+            "allowance_amount": 30
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 88,
+        "fields": {
+            "name": "Sudan",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 89,
+        "fields": {
+            "name": "\u0160panjolska",
+            "allowance_currency": 1,
+            "allowance_amount": 60
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 90,
+        "fields": {
+            "name": "\u0160vedska",
+            "allowance_currency": 1,
+            "allowance_amount": 80
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 91,
+        "fields": {
+            "name": "\u0160vicarska",
+            "allowance_currency": 1,
+            "allowance_amount": 80
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 92,
+        "fields": {
+            "name": "Tad\u017eikistan",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 93,
+        "fields": {
+            "name": "Tunis",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 94,
+        "fields": {
+            "name": "Turkmenistan",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 95,
+        "fields": {
+            "name": "Turska",
+            "allowance_currency": 1,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 96,
+        "fields": {
+            "name": "Ujedinjeni Arapski Emirati",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 97,
+        "fields": {
+            "name": "Ujedinjeno Kraljevstvo",
+            "allowance_currency": 1,
+            "allowance_amount": 70
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 98,
+        "fields": {
+            "name": "Ukrajina",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 99,
+        "fields": {
+            "name": "Uzbekistan",
+            "allowance_currency": 3,
+            "allowance_amount": 50
+        }
+    },
+    {
+        "model": "travel.Country",
+        "pk": 100,
+        "fields": {
+            "name": "Ostale dr\u017eave",
+            "allowance_currency": 3,
+            "allowance_amount": 35
+        }
+    }
+]
